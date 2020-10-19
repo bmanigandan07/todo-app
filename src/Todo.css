@@ -1,0 +1,24 @@
+.todo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    
+}
+.todo-container-div{
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+.todo-p{
+    flex: 1;
+    font-size: 2em;
+    cursor: pointer;
+    word-break: break-all;
+}
+.todo-p-disabled{
+    text-decoration: line-through;
+    color: gray;
+}
+.todo-i{
+    font-size: 2em;
+}
