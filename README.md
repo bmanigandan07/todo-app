@@ -1,3 +1,29 @@
+## A todo app based on react.js with localStorage support.
+![](https://i.ibb.co/j4MLYpZ/Screenshot-20201019-223433-1.png)
+
+Prerequisites
+-------------
+
+- [Node.js 10+](http://nodejs.org)
+
+Getting Started
+---------------
+
+The easiest way to get started is to clone the repository:
+
+```bash
+# Get the latest snapshot
+git clone https://github.com/bmanigandan07/todo-app.git myproject
+
+# Change directory
+cd myproject
+
+# Install NPM dependencies
+npm install
+
+# Then simply start your app
+npm start
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -24,10 +24,10 @@ class AddTodo extends Component
     {
         return(
 
-            <div class="jumbotron">
-              <h1 class="display-4">Welcome to To-do App</h1>
-              <p class="lead">Add a Todo below</p>
-              <hr class="my-4"></hr>
+            <div className="jumbotron">
+              <h1 className="display-4 font-weight-bold ">Welcome to To-do App</h1>
+              <p className="lead font-weight-normal">Add a Todo below</p>
+              <hr className="my-4"></hr>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group row">
                     <label htmlFor='add todo'></label>
